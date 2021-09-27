@@ -144,6 +144,8 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
+    fast_jsonapi (1.5)
+      activesupport (>= 4.2)
     ffi (1.15.4)
     git (1.9.1)
       rchardet (~> 1.8)
@@ -336,6 +338,7 @@ DEPENDENCIES
   database_cleaner-active_record
   factory_bot_rails
   faker!
+  fast_jsonapi
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (~> 0.5)
